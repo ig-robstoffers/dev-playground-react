@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/pages/simple.css", "../src/pages/bugs/axisrangebufferinfinity.css"],
+  "sourcesContent": [".aboveContentSplit {\r\n    display: flex;\r\n    flex-direction: row;\r\n}\r\n.aboveContentLeftContainer {\r\n    margin-left: 1.25rem;\r\n    display: flex;\r\n    flex-grow: 1;\r\n    justify-content: flex-start;\r\n    align-items: flex-end;\r\n}\r\n.aboveContentRightContainer {\r\n    margin-right: 1.25rem;\r\n    display: flex;\r\n    flex-grow: 1;\r\n    justify-content: flex-end;\r\n    align-items: flex-end;\r\n}\r\n\r\n", ".rangebufferbug {\r\n    position: absolute;\r\n    width: 500px;\r\n    height: 500px; \r\n}"],
+  "mappings": "AAAA,CAAC,kBACG,QAAS,KACT,eAAgB,GACpB,CACA,CAAC,0BACG,YAAa,QACb,QAAS,KACT,UAAW,EACX,gBAAiB,WACjB,YAAa,QACjB,CACA,CAAC,2BACG,aAAc,QACd,QAAS,KACT,UAAW,EACX,gBAAiB,SACjB,YAAa,QACjB,CCjBA,CAAC,eACG,SAAU,SACV,MAAO,MACP,OAAQ,KACZ",
+  "names": []
+}
