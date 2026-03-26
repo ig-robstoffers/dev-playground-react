@@ -1,7 +1,7 @@
 {
   "name": "dev-playground-react",
   "version": "1.0.0",
-  "homepage": "https://ig-robstoffers.github.io/didactic-octo-disco",
+  "homepage": "https://ig-robstoffers.github.io/dev-playground-react",
   "scripts": {
     "build": "esbuild src/index.tsx --bundle --minify --sourcemap --outfile=build/out.js --log-limit=0 && copy index.html build\\ && copy index.css build\\",
     "deploy": "gh-pages -d build"

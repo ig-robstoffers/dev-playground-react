@@ -10,10 +10,10 @@ export class BaseSale {
 
 export class Sale extends BaseSale {
     private _country: string;
-    public get country() : string {
+    public get Country() : string {
         return this._country;
     }
-    public set country(country: string) {
+    public set Country(country: string) {
         this._country = country;
     }
 
@@ -32,7 +32,6 @@ export class Sale extends BaseSale {
     public ProductID: number;
     public ProductName: string;
     public Profit: number;
-    public CountryName: string;
     public Image: string;
     public Metadata: Metadata;
 }
@@ -102,7 +101,7 @@ export class DataGenerator {
             sale.ProductPrice = this.getRandomNumber(100, 2000);
             sale.ProductID = i;
             sale.ProductName = names[nameIndex];
-            sale.country = countries[countryIndex];
+            sale.Country = countries[countryIndex];
             sale.Metadata = new Metadata();
             sale.Metadata.CountryCode = countryIndex;
             sale.margin = this.getRandomNumber(2, 5);
